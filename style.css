@@ -18,6 +18,9 @@ header{
     font-style: normal;
     font-size: 12pt;
     z-index: 1000;
+    top: 0;
+    position: sticky;
+    background-color: white;
     
 }
 
@@ -85,7 +88,70 @@ header .søg img{
 
 
 
+
+
+
 /*HEADER SLUT*/
+
+
+
+/*MOBILMENU NAV*/
+
+.mobilmenu{
+    display: flex;
+    justify-content: left;
+    place-content: bottom;
+    font-family: dinosaur, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+    height: 910px;
+    
+    padding: 20px;
+    text-align: left;
+    padding-top: 600px;
+    
+    animation-name: test1;
+    animation-duration: 1s;
+
+    
+    
+
+
+}
+
+@keyframes test1{
+    from {scale: 0;}
+    to{scale: 100%}
+   
+}
+
+
+.mobilmenu a{
+    color: rgb(38, 38, 38);
+    text-decoration: none;
+    
+    
+}
+
+.mobilmenu div{
+    margin-top: 20px;
+}
+
+.mobilmenu div a:hover{
+    color: rgb(232, 155, 0);
+}
+
+.mobilmenu ul hr{
+    color: rgb(232, 155, 0);
+}
+
+
+
+/*MOBILMENU NAV SLUT*/
+
+
+
 
 
 /*SECTION 1*/
@@ -93,22 +159,31 @@ header .søg img{
 .section1{
     display: flex;
     justify-content: left;
-    height: 1000px;
+    height: 700px;
     flex-wrap: wrap;
-    background-color: rgb(35, 80, 35);
+    background-color: rgb(255, 255, 255);
+    
 }
 
 .section1 .left{
     width: 38%;
     
+    
 }
 
 .section1 .left img{
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 200px;
     height: 600px;
-    width: 550px;
+    width: 570px;
+    
+    animation-name: test1;
+    animation-duration: 4s;
+    
+    
 }
+
+
 
 .section1 .right{
     width: 30%;
@@ -117,47 +192,52 @@ header .søg img{
 }
 
 .section1 .right h1{
-    margin-top: 490px;
-    font-family: darkmode-mono-off, sans-serif;
+    margin-top: 370px;
+    
+    font-family: Hiragino Kaku Gothic StdN;
     font-weight: 900;
     font-style: normal;
-    font-size: 40pt;
+    color: rgb(31, 31, 31);
+    font-size: 37pt;
 
 }
 
 .section1 .right h2{
     font-weight: 100;
     font-size: 13pt;
+    font-family: dinosaur, sans-serif;
+    color: rgb(40, 40, 40);
 
 }
 
 .section1 .right .knap{
-    background-color: rgb(255, 196, 77);
-    height: 30px;
+    background-color: rgb(48, 48, 48);
+    height: 29px;
     width: 200px;
     text-align: center;
     margin-top: 30px;
     border-radius: 10px;
     text-decoration: none;
+    
 }
 
 .section1 .right .knap:hover{
-    background-color: rgb(255, 210, 121);
+    background-color: rgb(232, 155, 0);
 }
 
 .section1 .right .knap h3 {
     text-decoration: none;
-    color: black;
-    font-weight: 300;
-    font-style: normal;
+    color: white;
+    font-weight: 600;
+    font-style: bold;
     font-size: 15pt;
-    font-family: darkmode-mono-off, sans-serif;
-    font-weight: 1;
-    font-style:normal;
+    
+    font-size: 13pt;
+    font-family: dinosaur, sans-serif;
     
     text-decoration: underline;
     text-decoration-thickness: 0;
-    text-decoration-color:rgb(255, 196, 77) ;
+    text-decoration-color:rgb(48, 48, 48);
     
     
 }
@@ -169,21 +249,26 @@ header .søg img{
 .section2{
     display: flex;
     justify-content: left;
-    height: 1000px;
+    height: 700px;
     flex-wrap: wrap;
-    background-color: rgb(204, 138, 39);
+    background-color: rgb(255, 255, 255);
 }
 
 .section2 .left{
     width: 38%;
     
+    
+    
 }
 
 .section2 .left img{
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 200px;
     height: 600px;
-    width: 550px;
+    width: 570px;
+
+    animation-name: test1;
+    animation-duration: 4s;
 }
 
 .section2 .right{
@@ -193,23 +278,25 @@ header .søg img{
 }
 
 .section2 .right h1{
-    margin-top: 490px;
-    font-family: darkmode-mono-off, sans-serif;
+    margin-top: 390px;
+    font-family: Hiragino Kaku Gothic StdN;
     font-weight: 900;
     font-style: normal;
-    font-size: 40pt;
+    color: rgb(31, 31, 31);
+    font-size: 37pt;
 
 }
 
 .section2 .right h2{
     font-weight: 100;
     font-size: 13pt;
-
+    font-family: dinosaur, sans-serif;
+    color: rgb(40, 40, 40);
 }
 
 .section2 .right .knap{
-    background-color: rgb(255, 196, 77);
-    height: 30px;
+    background-color: rgb(48, 48, 48);
+    height: 29px;
     width: 200px;
     text-align: center;
     margin-top: 30px;
@@ -218,23 +305,23 @@ header .søg img{
 }
 
 .section2 .right .knap:hover{
-    background-color: rgb(255, 210, 121);
+    background-color: rgb(232, 155, 0);
 }
 
 .section2 .right .knap h3 {
     text-decoration: none;
-    color: black;
-    font-weight: 300;
-    font-style: normal;
+    color: white;
+    font-weight: 600;
+    font-style: bold;
     font-size: 15pt;
-    font-family: darkmode-mono-off, sans-serif;
-    font-weight: 1;
-    font-style:normal;
+    
+    font-size: 13pt;
+    font-family: dinosaur, sans-serif;
+    
     
     text-decoration: underline;
     text-decoration-thickness: 0;
-    text-decoration-color:rgb(255, 196, 77) ;
-    
+    text-decoration-color:rgb(48, 48, 48);
     
 }
 
@@ -245,21 +332,25 @@ header .søg img{
 .section3{
     display: flex;
     justify-content: left;
-    height: 1000px;
+    height: 800px;
     flex-wrap: wrap;
-    background-color: #ceaf24;
+    background-color: rgb(255, 255, 255);
 }
 
 .section3 .left{
     width: 38%;
     
+    
 }
 
 .section3 .left img{
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 200px;
     height: 600px;
-    width: 550px;
+    width: 570px;
+
+    animation-name: test1;
+    animation-duration: 4s;
 }
 
 .section3 .right{
@@ -269,54 +360,108 @@ header .søg img{
 }
 
 .section3 .right h1{
-    margin-top: 490px;
-    font-family: darkmode-mono-off, sans-serif;
+    margin-top: 370px;
+    font-family: Hiragino Kaku Gothic StdN;
     font-weight: 900;
     font-style: normal;
-    font-size: 40pt;
+    color: rgb(31, 31, 31);
+    font-size: 37pt;
 
 }
 
 .section3 .right h2{
     font-weight: 100;
     font-size: 13pt;
-
+    font-family: dinosaur, sans-serif;
+    color: rgb(40, 40, 40);
 }
 
 .section3 .right .knap{
-    background-color: rgb(255, 196, 77);
-    height: 30px;
+    background-color: rgb(48, 48, 48);
+    height: 29px;
     width: 200px;
     text-align: center;
     margin-top: 30px;
     border-radius: 10px;
     text-decoration: none;
+    
 }
 
 .section3 .right .knap:hover{
-    background-color: rgb(255, 210, 121);
+    background-color: rgb(232, 155, 0);
+    text-decoration-color:rgb(255, 210, 121);
 }
 
 .section3 .right .knap h3 {
-    text-decoration: none;
-    color: black;
-    font-weight: 300;
-    font-style: normal;
+    
+    color: white;
+    font-weight: 600;
+    font-style: bold;
     font-size: 15pt;
-    font-family: darkmode-mono-off, sans-serif;
-    font-weight: 1;
-    font-style:normal;
+    
+    font-size: 13pt;
+    font-family: dinosaur, sans-serif;
+    
     
     text-decoration: underline;
     text-decoration-thickness: 0;
-    text-decoration-color:rgb(255, 196, 77) ;
+    text-decoration-color:rgb(48, 48, 48);
+    
     
     
 }
 
 /*SECTION 3 SLUT*/
 
+/*FOOTER*/
 
+footer{
+    height: 300px;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+}
+
+footer img{
+    padding: 20px;
+    padding-top: 40px;
+    scale: 80%;
+}
+
+footer h4{
+    font-family: dinosaur, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    color: white;
+    margin-top: 5px;
+}
+
+footer h5{
+    font-family: dinosaur, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    color: white;
+    
+}
+
+
+@keyframes fade{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes slidein{
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 
 /*RESPONSIVE*/
 
@@ -354,6 +499,9 @@ header .søg img{
 
 
 
+
+
+
 /*SECTION1*/
 
     .section1{
@@ -362,7 +510,7 @@ header .søg img{
     
     .section1 .left{
         width: 100%;
-        background-color: rgb(35, 80, 35);
+        
         height: 50%;
         
     }
@@ -373,7 +521,7 @@ header .søg img{
     }
 
     .section1 .right{
-        background-color: rgb(35, 80, 35);
+        
         width: 100%;
         text-align: center;
         
@@ -429,7 +577,7 @@ header .søg img{
 .section2 .right .knap{
     margin-left: 200px;
     
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 /*SECTION3*/
@@ -468,7 +616,7 @@ header .søg img{
 .section3 .right .knap{
     margin-left: 200px;
     
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 
