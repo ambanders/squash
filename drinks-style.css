@@ -588,6 +588,8 @@ footer h5{
 
 /*RESPONSIVE*/
 
+
+
 /*HEADER*/
 @media screen and (min-width:780px){
 
@@ -595,20 +597,22 @@ footer h5{
         display: none;
     }
 
+ 
+
 }
 
 @media screen and (max-width:780px){
     
-
+    header .nav div{
+        display: none;
+    }
 
 
     header .søg{
         display: none;
     }
 
-    header .nav div{
-        display: none;
-    }
+
 
     header .logo img{
        margin-right: 30px;
@@ -620,6 +624,7 @@ footer h5{
         height: 50px;
     }
 
+}
 
 
 
@@ -636,7 +641,7 @@ footer h5{
 
 
 
-}
+
 
 
 @media screen and (max-width:1200px){
