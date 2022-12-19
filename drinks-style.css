@@ -49,11 +49,11 @@ header .nav{
     
 }
 
-header .nav ul{
+header .nav div{
     margin-top: 15px;
 }
 
-header .nav ul a{
+header .nav div a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 18px;
@@ -61,7 +61,7 @@ header .nav ul a{
     
 }
 
-header .nav ul a:hover{
+header .nav div a:hover{
     color: rgb(232, 155, 0);
 }
 
