@@ -331,7 +331,7 @@ footer h5{
 
 @media screen and (max-width:780px){
     
-    header .nav ul{
+    header .nav div{
         display: none;
     }
 
