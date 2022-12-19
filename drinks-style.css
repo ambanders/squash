@@ -306,6 +306,10 @@ header .søg img{
 }
 
 
+#text1{
+    margin-top: 230px;
+}
+
 #energizer{
     background-color: rgb(26, 26, 26);
 }
@@ -406,8 +410,8 @@ header .søg img{
     justify-content: left;
     margin-left: 70px;
     height: fit-content;
-   margin-top: 180px;
-   color: rgb(237, 237, 237);
+    margin-top: 180px;
+    color: rgb(237, 237, 237);
     
 }
 
@@ -483,7 +487,7 @@ header .søg img{
 .drink-section .div4{
     display: flex;
     justify-content: center;
-    background-color: rgb(22, 36, 20);
+    background-color: rgb(31, 48, 28);
     height: fit-content;
     
 }
