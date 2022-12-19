@@ -25,7 +25,7 @@ header{
 }
 
 header .logo{
-    width: 33.3%;
+    width: 20%;
     
 }
 
@@ -42,7 +42,7 @@ header .logo img{
 
 
 header .nav{
-    width: 33.3%;
+    width: 60%;
     
     text-align: center;
     
@@ -71,17 +71,26 @@ header .nav ul a:hover{
 
 
 header .søg{
-    width: 33.3%;
+    width: 20%;
+    
+    display: flex;
+    justify-content: right;
     
     
 }
 
+
+header .søg .in-søg{
+    margin: 10px;
+}
+
 header .søg img{
-    margin-left: 520px;
-    margin-top: 10px;
+    
     width:35px;
     height: 35px;
+   
 }
+
 
 
 
@@ -103,6 +112,7 @@ header .søg img{
 
     display: flex;
     justify-content: center;
+    place-items: center;
     flex-direction: column;
 }
 
@@ -139,7 +149,7 @@ header .søg img{
     margin-top: 10px;
     border-radius: 10px;
     text-decoration: none;
-    margin-left: 750px;
+    
     animation-name: test1;
     animation-duration: 6s;
 }
@@ -297,9 +307,7 @@ footer h5{
         height: 50px;
     }
 
-    .section1 .knap{
-        margin-left: 190px;
-    }
+  
 
 
     .section2{

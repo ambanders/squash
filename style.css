@@ -25,7 +25,7 @@ header{
 }
 
 header .logo{
-    width: 33.3%;
+    width: 20%;
     
 }
 
@@ -42,7 +42,7 @@ header .logo img{
 
 
 header .nav{
-    width: 33.3%;
+    width: 60%;
     
     text-align: center;
     
@@ -71,16 +71,24 @@ header .nav ul a:hover{
 
 
 header .søg{
-    width: 33.3%;
+    width: 20%;
+    
+    display: flex;
+    justify-content: right;
     
     
 }
 
+
+header .søg .in-søg{
+    margin: 10px;
+}
+
 header .søg img{
-    margin-left: 520px;
-    margin-top: 10px;
+    
     width:35px;
     height: 35px;
+   
 }
 
 
@@ -100,24 +108,16 @@ header .søg img{
 .mobilmenu{
     display: flex;
     justify-content: left;
-    place-content: bottom;
     font-family: dinosaur, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20pt;
     height: 910px;
-    
     padding: 20px;
     text-align: left;
     padding-top: 600px;
-    
     animation-name: test1;
     animation-duration: 1s;
-
-    
-    
-
-
 }
 
 @keyframes test1{
@@ -154,45 +154,61 @@ header .søg img{
 
 
 
-/*SECTION 1*/
+/*SECTION */
 
-.section1{
+.section{
     display: flex;
-    justify-content: left;
-    height: 700px;
-    flex-wrap: wrap;
+    
+    height: fit-content;
+    
+    
+    
+}
+
+
+
+
+#bgwhite{
     background-color: rgb(255, 255, 255);
-    
 }
 
-.section1 .left{
-    width: 38%;
+.section .left{
+    width: 240px;
     
-    
+    text-align: center;
+    height: fit-content;
+    margin-top: 170px;
+    margin-left: 350px;
+    position:static;
+        
 }
 
-.section1 .left img{
-    margin-top: 100px;
-    margin-left: 200px;
-    height: 600px;
-    width: 570px;
+.section .left img{
+    
+    
+    height: 100%;
+    width: 100%;
     
     animation-name: test1;
     animation-duration: 4s;
-    
-    
-}
-
-
-
-.section1 .right{
-    width: 30%;
-    
+    justify-self: center;
     
 }
 
-.section1 .right h1{
-    margin-top: 370px;
+
+
+.section .right{
+    width: 450px;
+   
+    justify-content: left;
+    margin-left: 40px;
+    height: fit-content;
+    margin-top: 350px;
+    
+}
+
+.section .right h1{
+    padding-top: 20px;
     
     font-family: Hiragino Kaku Gothic StdN;
     font-weight: 900;
@@ -202,7 +218,7 @@ header .søg img{
 
 }
 
-.section1 .right h2{
+.section .right h2{
     font-weight: 100;
     font-size: 13pt;
     font-family: dinosaur, sans-serif;
@@ -210,7 +226,7 @@ header .søg img{
 
 }
 
-.section1 .right .knap{
+.section .right .knap{
     background-color: rgb(48, 48, 48);
     height: 29px;
     width: 200px;
@@ -221,11 +237,11 @@ header .søg img{
     
 }
 
-.section1 .right .knap:hover{
+.section .right .knap:hover{
     background-color: rgb(232, 155, 0);
 }
 
-.section1 .right .knap h3 {
+.section .right .knap h3 {
     text-decoration: none;
     color: white;
     font-weight: 600;
@@ -242,176 +258,13 @@ header .søg img{
     
 }
 
-/*SECTION 1 SLUT */
-
-/*SECTION 2*/
-
-.section2{
-    display: flex;
-    justify-content: left;
-    height: 700px;
-    flex-wrap: wrap;
-    background-color: rgb(255, 255, 255);
+#last{
+    margin-bottom: 300px;
 }
 
-.section2 .left{
-    width: 38%;
-    
-    
-    
-}
+/*SECTION  SLUT */
 
-.section2 .left img{
-    margin-top: 100px;
-    margin-left: 200px;
-    height: 600px;
-    width: 570px;
 
-    animation-name: test1;
-    animation-duration: 4s;
-}
-
-.section2 .right{
-    width: 30%;
-    
-    
-}
-
-.section2 .right h1{
-    margin-top: 390px;
-    font-family: Hiragino Kaku Gothic StdN;
-    font-weight: 900;
-    font-style: normal;
-    color: rgb(31, 31, 31);
-    font-size: 37pt;
-
-}
-
-.section2 .right h2{
-    font-weight: 100;
-    font-size: 13pt;
-    font-family: dinosaur, sans-serif;
-    color: rgb(40, 40, 40);
-}
-
-.section2 .right .knap{
-    background-color: rgb(48, 48, 48);
-    height: 29px;
-    width: 200px;
-    text-align: center;
-    margin-top: 30px;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-.section2 .right .knap:hover{
-    background-color: rgb(232, 155, 0);
-}
-
-.section2 .right .knap h3 {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    font-style: bold;
-    font-size: 15pt;
-    
-    font-size: 13pt;
-    font-family: dinosaur, sans-serif;
-    
-    
-    text-decoration: underline;
-    text-decoration-thickness: 0;
-    text-decoration-color:rgb(48, 48, 48);
-    
-}
-
-/*SECTION 2 SLUT*/
-
-/*SECTION 3*/
-
-.section3{
-    display: flex;
-    justify-content: left;
-    height: 800px;
-    flex-wrap: wrap;
-    background-color: rgb(255, 255, 255);
-}
-
-.section3 .left{
-    width: 38%;
-    
-    
-}
-
-.section3 .left img{
-    margin-top: 100px;
-    margin-left: 200px;
-    height: 600px;
-    width: 570px;
-
-    animation-name: test1;
-    animation-duration: 4s;
-}
-
-.section3 .right{
-    width: 30%;
-    
-    
-}
-
-.section3 .right h1{
-    margin-top: 370px;
-    font-family: Hiragino Kaku Gothic StdN;
-    font-weight: 900;
-    font-style: normal;
-    color: rgb(31, 31, 31);
-    font-size: 37pt;
-
-}
-
-.section3 .right h2{
-    font-weight: 100;
-    font-size: 13pt;
-    font-family: dinosaur, sans-serif;
-    color: rgb(40, 40, 40);
-}
-
-.section3 .right .knap{
-    background-color: rgb(48, 48, 48);
-    height: 29px;
-    width: 200px;
-    text-align: center;
-    margin-top: 30px;
-    border-radius: 10px;
-    text-decoration: none;
-    
-}
-
-.section3 .right .knap:hover{
-    background-color: rgb(232, 155, 0);
-    text-decoration-color:rgb(255, 210, 121);
-}
-
-.section3 .right .knap h3 {
-    
-    color: white;
-    font-weight: 600;
-    font-style: bold;
-    font-size: 15pt;
-    
-    font-size: 13pt;
-    font-family: dinosaur, sans-serif;
-    
-    
-    text-decoration: underline;
-    text-decoration-thickness: 0;
-    text-decoration-color:rgb(48, 48, 48);
-    
-    
-    
-}
-
-/*SECTION 3 SLUT*/
 
 /*FOOTER*/
 
@@ -466,26 +319,28 @@ footer h5{
 /*RESPONSIVE*/
 
 /*HEADER*/
-@media screen and (min-width:760px){
+@media screen and (min-width:780px){
 
     header .burgermenu{
         display: none;
     }
 
+ 
+
 }
 
-@media screen and (max-width:760px){
+@media screen and (max-width:780px){
     
-
+    header .nav ul{
+        display: none;
+    }
 
 
     header .søg{
         display: none;
     }
 
-    header .nav ul{
-        display: none;
-    }
+
 
     header .logo img{
        margin-right: 30px;
@@ -497,132 +352,53 @@ footer h5{
         height: 50px;
     }
 
+}
 
 
-
-
+@media screen and (max-width:1200px){
 
 /*SECTION1*/
 
-    .section1{
-        height: 1100px;
-    }
-    
-    .section1 .left{
-        width: 100%;
-        
-        height: 50%;
-        
+    .section{
+        flex-wrap: wrap;
     }
 
-    .section1 .left img{
-        margin-left: 10px;
-        margin-top: 90px;
+    .section .left{
+        justify-self: center;
+        margin: auto;
+        margin-top: 170px;
+        margin-right: 10px;
     }
 
-    .section1 .right{
+    .section .right{
+        margin: auto;
+        margin-top: 350px;
         
-        width: 100%;
-        text-align: center;
-        
+    }
+}
 
+@media screen and (max-width:680px){
+    .section .left{
+        justify-self: center;
+        margin: auto;
+        margin-top: 80px;
     }
 
-    .section1 .right h1{
+    .section .right{
+        margin: auto;
         margin-top: 5px;
-        
-        
-    
+        text-align: center;
     }
 
-    .section1 .right .knap{
-        margin-left: 200px;
-        
+    .section .right .knap{
+        margin-left: 120px;
         margin-bottom: 100px;
     }
 
-/*SECTION2*/
-
-.section2{
-    height: fit-content;
+    #last{
+        margin-bottom: 200px;
+    }
 }
-
-.section2 .left{
-    width: 100%;
-    
-    height: 50%;
-    
-}
-
-.section2 .left img{
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-.section2 .right{
-    
-    width: 100%;
-    text-align: center;
-    
-
-}
-
-.section2 .right h1{
-    margin-top: 0px;
-    
-    
-
-}
-
-.section2 .right .knap{
-    margin-left: 200px;
-    
-    margin-bottom: 200px;
-}
-
-/*SECTION3*/
-
-.section3{
-    height: fit-content;
-}
-
-.section3 .left{
-    width: 100%;
-    
-    height: 50%;
-    
-}
-
-.section3 .left img{
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-.section3 .right{
-    
-    width: 100%;
-    text-align: center;
-    
-
-}
-
-.section3 .right h1{
-    margin-top: 0px;
-    
-    
-
-}
-
-.section3 .right .knap{
-    margin-left: 200px;
-    
-    margin-bottom: 200px;
-}
-
-
-    
-}
-
 
 
 
